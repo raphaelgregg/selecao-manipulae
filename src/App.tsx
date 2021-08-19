@@ -1,11 +1,11 @@
-import React from 'react';
+import { Home } from './screens/Home';
+import { GlobalStyle } from './styles/global';
 
-function App() {
+export function App() {
   return (
     <div>
-      <h1>HelloWorld</h1>
+      <Home />
+      <GlobalStyle />
     </div>
   );
 }
-
-export default App;
